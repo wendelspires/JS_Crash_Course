@@ -19,7 +19,7 @@
 //const hello = (`My name is ${name} and I am ${age}`);
 //console.log(hello);
 
-const s = 'Technology, computer, it, code';
+//const s = 'Technology, computer, it, code';
 
 //length of constant
 //console.log(s.length);
@@ -31,4 +31,21 @@ const s = 'Technology, computer, it, code';
 //substring = s.substring(0,5);
 //console.log (substring.toUpperCase());
 //divide
-console.log(s.split(', '));
+//console.log(s.split(', '));
+
+//ARRAYS - Variables that hold multiple values
+
+//const numbers = new Array(1,2,3,4,5);
+//console.log(numbers);
+
+const fruits = ['apple', 'banana', 'oranges', 'pears']
+
+//index of arrays
+//console.log(fruits[1]);
+//to add in arrays in final
+fruits.push('mangos');
+
+//to add in beginning
+fruits.unshift('strawberries');
+
+console.log(fruits.indexOf('mangos'));
