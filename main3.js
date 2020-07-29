@@ -22,3 +22,18 @@ const todos = [
 
 const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
+
+// for loop
+
+for ( let i = 0; i <10; i++){
+		console.log(`For loop number: ${i}`);
+}
+
+// while loop
+
+let i = 0;
+while (i < 10) {
+	console.log(`While loop numer: ${i}`);
+	i++;
+}
+
